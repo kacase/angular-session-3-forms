@@ -14,6 +14,14 @@ export class AppComponent {
 
   // Constructor
   constructor() {}
+
+  onSubmit() {
+    alert(
+      `User ${this.user.name} with e-mail address ${
+        this.user.email
+      } has been added to the system.`
+    );
+  }
 }
 
 export interface User {
