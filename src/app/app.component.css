@@ -1,0 +1,18 @@
+p {
+}
+
+.exercise {
+  padding: 10px;
+  background-color: rgba(57, 163, 212, 0.534);
+  border-radius: 10px;
+}
+
+.exercise div {
+  display: grid;
+  grid-template-columns: auto 250px;
+  margin: 10px;
+}
+
+.special-offer {
+  background-color: orange;
+}
